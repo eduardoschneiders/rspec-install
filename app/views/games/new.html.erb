@@ -1,0 +1,7 @@
+<h1>Welcome to BlackJack</h1>
+<%= form_for @game do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+	<%= f.submit id: "play" %>
+
+<% end %>
